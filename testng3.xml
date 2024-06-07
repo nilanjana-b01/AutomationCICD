@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Suite">
+	<listeners>
+		<listener class-name ="SeleniumAcademy.Listeners"/>
+	</listeners>
+
+  <test thread-count="5" name="DemoClass">
+  <groups>
+  		<run>
+  			<include name ="Smoke"/>
+  		</run>
+  </groups>
+    <classes>
+      <class name="TestNGPackage.Democlass1"/>
+      <class name ="TestNGPackage.Democlass2"/>
+    </classes>
+  </test>
+  
+</suite>

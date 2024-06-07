@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="LoginTest(failed)" parallel="tests">
+    <classes>
+      <class name="SeleniumAcademy.LoginTest2">
+        <methods>
+          <include name="loginToPage" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- SeleniumAcademy.LoginTest2 -->
+    </classes>
+  </test> <!-- LoginTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

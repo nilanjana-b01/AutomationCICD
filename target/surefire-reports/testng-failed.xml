@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]" parallel="tests">
+  <test name="testNGBasics(failed)" parallel="tests">
+    <classes>
+      <class name="SeleniumAcademy.testNGBasics">
+        <methods>
+          <include name="secondTest"/>
+          <include name="lastToExecute"/>
+          <include name="firstToExecute"/>
+          <include name="lastToExecuteafterCLass"/>
+          <include name="firstToExecuteBeforeCLass"/>
+          <include name="firstToExecuteBeforeEachTestCase"/>
+          <include name="firstTest"/>
+        </methods>
+      </class> <!-- SeleniumAcademy.testNGBasics -->
+    </classes>
+  </test> <!-- testNGBasics(failed) -->
+</suite> <!-- Failed suite [Suite] -->
